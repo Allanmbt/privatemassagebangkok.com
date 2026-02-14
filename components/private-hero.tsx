@@ -83,7 +83,7 @@ export function PrivateHero() {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border border-gold/30 rounded-full flex justify-center"
+          className="w-6 h-10 border border-border rounded-full flex justify-center"
         >
           <motion.div
             animate={{ y: [0, 12, 0], opacity: [1, 0, 1] }}

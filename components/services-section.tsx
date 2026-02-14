@@ -98,7 +98,7 @@ export function ServicesSection() {
                 {service.description}
               </p>
 
-              <div className="flex items-center justify-between pt-4 border-t border-gold/20">
+              <div className="flex items-center justify-between pt-4 border-t border-border">
                 <span className="text-twilight text-sm font-body">
                   {service.duration}
                 </span>

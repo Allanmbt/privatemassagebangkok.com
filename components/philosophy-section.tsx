@@ -38,9 +38,9 @@ export function PhilosophySection() {
             className="hidden lg:flex items-center justify-center"
           >
             <div className="relative">
-              <div className="w-64 h-64 border border-gold/20 rounded-full flex items-center justify-center">
-                <div className="w-48 h-48 border border-gold/30 rounded-full flex items-center justify-center">
-                  <div className="w-32 h-32 border border-gold/40 rounded-full flex items-center justify-center">
+              <div className="w-64 h-64 border border-border rounded-full flex items-center justify-center">
+                <div className="w-48 h-48 border border-border rounded-full flex items-center justify-center">
+                  <div className="w-32 h-32 border border-border rounded-full flex items-center justify-center">
                     <span className="text-gradient-gold font-display text-5xl">私</span>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export function PhilosophySection() {
                   transition={{ duration: 0.6, delay: 0.4 + index * 0.1 }}
                   className="flex gap-6"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 rounded border border-gold/30 flex items-center justify-center">
+                  <div className="flex-shrink-0 w-12 h-12 rounded border border-border flex items-center justify-center">
                     <span className="text-gradient-gold font-display text-xl">
                       {String(index + 1).padStart(2, '0')}
                     </span>

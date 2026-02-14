@@ -81,7 +81,7 @@ export function BlogSection() {
               <div className="p-6">
                 <div className="flex items-center gap-4 text-xs text-muted-foreground mb-3 font-body">
                   <span>{post.date}</span>
-                  <span className="w-1 h-1 bg-gold rounded-full" />
+                  <span className="w-1 h-1 bg-border rounded-full" />
                   <span>{post.readTime}</span>
                 </div>
 

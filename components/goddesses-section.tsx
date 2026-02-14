@@ -59,7 +59,7 @@ export function GoddessesSection() {
             </span>
             <p className="text-muted-foreground text-sm mt-1 font-body">Cover Goddess</p>
           </div>
-          <div className="w-px h-12 bg-gold/20" />
+          <div className="w-px h-12 bg-border" />
           <div className="text-center">
             <span className="text-twilight font-display text-2xl tracking-wider">
               A-CLASS

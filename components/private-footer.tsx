@@ -12,7 +12,7 @@ const seoKeywords = [
 
 export function PrivateFooter() {
   return (
-    <footer className="bg-obsidian-light border-t border-gold/20">
+    <footer className="bg-obsidian-light border-t border-border">
       <div className="container mx-auto px-6 py-16">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}

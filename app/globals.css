@@ -68,7 +68,7 @@
   
   /* Muted - Subdued elements */
   --muted: 240 5% 18%;             /* #2E2E2E */
-  --muted-foreground: 220 10% 55%; /* #8A8A8A */
+  --muted-foreground: 220 10% 55%; /* #818898 */
   
   /* Accent - Gold glow */
   --accent: 43 60% 45%;            /* #B89A4F */
@@ -79,7 +79,7 @@
   --destructive-foreground: 0 0% 98%;
   
   /* Borders - Subtle gold tint */
-  --border: 43 15% 18%;            /* #2E2E2E */
+  --border: 30 20% 22%;            /* #353127 - 深金色边框 */
   --input: 240 6% 15%;             /* #262626 */
   --ring: 43 52% 58%;              /* #C9A962 */
   
@@ -1127,7 +1127,7 @@ html {
 
   /* Frosted glass effect for navigation */
   .glass-nav {
-    background: hsl(240 10% 5% / 0.7);
+    background: hsl(240 10% 5% / 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid hsl(43 15% 20% / 0.3);
@@ -1257,6 +1257,15 @@ html {
 }
 
 @layer utilities {
+  /* Border utilities - 写死颜色确保显示 */
+  .border-border {
+    border-color: #353127 !important;
+  }
+
+  .bg-border {
+    background-color: #353127 !important;
+  }
+
   /* Gold accent border */
   .border-gold {
     border-color: hsl(43 52% 58%);
@@ -1264,7 +1273,7 @@ html {
 
   /* Text colors */
   .text-gold {
-    color: hsl(43 52% 58%);
+    color: hsl(43 52% 58%) !important;
   }
 
   .text-gold-light {
@@ -1272,7 +1281,25 @@ html {
   }
 
   .text-twilight {
-    color: #b9bdc6;
+    color: hsl(220 10% 75%);
+  }
+
+  .text-muted-foreground {
+    color: #818898 !important;
+  }
+  
+  /* Font utilities */
+  .font-display {
+    font-family: var(--font-display), 'Playfair Display', Georgia, serif;
+  }
+  
+  .font-body {
+    font-family: var(--font-body), 'Cormorant Garamond', Georgia, serif;
+  }
+  
+  /* Gold color utility */
+  .bg-gold {
+    background-color: hsl(43 52% 58%) !important;
   }
 
   /* Background utilities */
